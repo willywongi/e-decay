@@ -1,0 +1,31 @@
+{
+  "name": "e-decay",
+  "version": "0.0.0",
+  "description": "A story about vanishing memories. The story itself wears out and eventually it disappears.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/willywongi/e-decay.git"
+  },
+  "keywords": [
+    "art",
+    "story",
+    "javascript",
+    "experiment"
+  ],
+  "author": "willywongi",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/willywongi/e-decay/issues"
+  },
+  "devDependencies": {
+    "gulp-livereload": "~3.7.0",
+    "gulp": "~3.8.11",
+    "gulp-babel": "~4.0.0"
+  },
+  "dependencies": {
+  }
+}
