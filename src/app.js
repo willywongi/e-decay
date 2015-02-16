@@ -11,5 +11,8 @@
 				return <input type="text" value={this.state.message} onChange={this.handleChangeMessage} />
 			}
 		});
+$(document).ready(function() {
 	React.render(<App />, document.getElementById('content'));
+});
+	
 

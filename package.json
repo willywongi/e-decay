@@ -22,10 +22,10 @@
     "url": "https://github.com/willywongi/e-decay/issues"
   },
   "devDependencies": {
-    "gulp-livereload": "~3.7.0",
     "gulp": "~3.8.11",
-    "gulp-babel": "~4.0.0"
+    "gulp-babel": "~4.0.0",
+    "gulp-livereload": "~3.7.0",
+    "st": "^0.5.3"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
