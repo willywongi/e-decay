@@ -17,8 +17,12 @@ gulp.task('build', function() {
 });
 
 gulp.task('watch', function() {
-  livereload.listen();
-  gulp.watch('src/*', ['build']);
+  livereload.listen({
+	  port: 35730
+  });
+  gulp.watch('src/*', ['build', function() {
+	  livereload();
+  }]);
 });
 
 gulp.task('server', function(done) {
